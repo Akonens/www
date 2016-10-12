@@ -1,0 +1,94 @@
+.clear {
+	clear:both;	
+	}
+
+.wrapper {
+	width:800px;
+	margin:0 auto;
+}
+.nav_layout {
+	height:100px;
+	width:800px;
+	background-image: url("img/fake_brick.png");
+	
+}
+.nav_layout div ul {
+	display:none;
+}
+.nav_layout div:hover > ul{
+	display:block;
+}
+.nav_layoutbotton {
+	background-image: url("img/texturetastic_gray.png");
+	height:20px;
+	position:absolute;
+	
+}
+
+.nav_layoutbotton ul {
+	display: inline-table;
+	position: relative;
+	
+}
+
+.home {
+	float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+	
+}
+
+.photo {
+	float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+	
+}
+
+.music {
+	float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+}
+
+.chat {
+	float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+}
+
+.games {
+	float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+}
+
+.blog {
+	float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+}
+
+.bank {
+	float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+}
+
+.twitter {
+		float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+	}
+
+.body {
+	background-color:orange;
+}

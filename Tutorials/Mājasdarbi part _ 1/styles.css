@@ -1,0 +1,141 @@
+body {
+    background-color: #d0e4fe;
+	margin: 0;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	width: 100%;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+	{
+	border-color: red;
+	border-width: 1.px;
+	border-style: solid;
+	
+	
+}
+.active {
+    background-color: #4CAF50;
+}
+#container {
+	background-color: white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+#header {
+	background-color: #66ccff;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	
+	
+	
+}
+
+#content {
+	padding: 10px;
+	
+}
+
+#nav {
+	width: 290px;
+	float: left;
+}
+
+
+#main {
+	width: 600px;
+	float: right;
+}
+
+#footer {
+	clear: both;
+}
+
+
+
+.nga {
+	width: 18px;
+	float: rights;
+}
+
+#minitoring {
+	
+	
+}
+
+#sist {
+	float: right;
+	background-color: red;
+	margin: 25px 25px 25px 25px;
+	
+}
+
+p.solid {
+	border-style: solid;
+	padding: 10px 10px 10px 10px;
+	float: right;
+	background-color: green;
+	
+}
+
+.container {
+	background-color: red;
+	color: red;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 20px 20px 20px;
+	height: 229px;
+	
+
+	
+	
+}
+
+.header {
+	background-color: #yellow;
+	color: blue;
+	text-align: center;
+	padding: 10px;
+	margin: 25px 20px 20px 20px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

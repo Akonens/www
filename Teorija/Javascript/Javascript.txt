@@ -1,0 +1,4 @@
+=     Norâda ka tas ir
+==    Pârbauda vai tas ir 
+&&    Un (And)
+||    Vai (or)

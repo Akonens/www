@@ -1,0 +1,24 @@
+.clmonth {
+  border-collapse: collapse;
+  width: 1000px;
+}
+.clmonth caption {
+  text-align: left;
+  font: bold 110% Georgia, "Times New Roman", Times, serif; 
+  padding-bottom: 0.4em;
+}
+.clmonth th {
+  border: 1px solid #AAAAAA;
+  border-bottom: none;
+  padding: 0.2em 0.6em 0.2em 0.6em;
+  background-color: #CCCCCC;
+  color: #3F3F3F;
+  font: 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+  width: 110px;
+}
+.clmonth td {
+  border: 1px solid #EAEAEA;
+  font: 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+  padding: 0.2em 0.6em 0.2em 0.6em;
+  vertical-align: top;
+}

@@ -1,0 +1,28 @@
+let toFarenheit = function(celsius) {
+	return celsius * 9/5 + 32
+}
+
+
+let celsius = 39
+let celsius2 = 3
+let normFarenheit = 40
+
+let isAboveNorm = function(celsius) {
+  
+  // parveidot celsijus uz farenheitiem
+  let rezultats = toFarenheit(celsius)
+  // jasalaidzina kur ir lielakais 
+  if (normFarenheit<rezultats) {
+  	return true 
+  }	else {
+  	return false
+  }
+}
+
+if(isAboveNorm(celsius)) {
+	alert("above")
+} else {
+	alert("norm")
+}
+
+

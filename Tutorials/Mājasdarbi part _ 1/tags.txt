@@ -1,0 +1,7 @@
+opacity: 0.1; - caurspidigums
+
+position:relative; - Tas nozîme ka tas bûs vienmçr virs kaut kâ. Piemeram divi box viens uz otra un var izveidot 
+			augsejo caurspidigu un tad apaksejo vares redzet.
+
+box-sizing: border-box; Ja lieto paddingu u.tt un viss izpleðâs un paliek lielâks tad ðî komanda
+			neòems to vçrâ.

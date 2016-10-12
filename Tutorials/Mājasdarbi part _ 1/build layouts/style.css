@@ -1,0 +1,107 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+
+
+ 
+
+.nav-top {
+	height:35px;
+	width:100%;
+	background-color:black;
+	position:fixed;
+}
+.wrapper {
+	padding-top:55px;
+	margin:0px auto;
+	width:1000px;
+}
+.A {
+	background-color:black;
+	height:200px;
+	width:450px;
+	float:left;
+}
+
+.B {
+	float:right;
+	height:200px;
+	width:450px;
+	background-color:red;
+	
+	
+}
+.C {
+	float: left;
+	width:250px;
+	height:500px;
+	background-color:orange;
+	margin: 5px 5px 5px 5px;
+}
+
+.D {
+	float:left;
+	width:350px;
+	height:250px;
+	background-color:blue;
+	margin: 5px 5px 5px 5px;
+}
+
+.E {
+	float:left;
+	width:350px;
+	height:900px;
+	background-color:brown;
+	margin: 5px 5px 5px 5px;
+}
+
+.F  {
+	float:right;
+	width:150px;
+	height:900px;
+	background:yellow;
+	margin: 5px 5px 5px 5px;
+}
+
+.G {
+	float:right;
+	width:250px;
+	height:900px;
+	background:black;
+	margin: 5px 5px 5px 5px;
+}
+
+.bigwrap {
+	width: 1000px;
+	height:auto;
+}
+
+.cwrap {
+	float:left;
+	width: 250px;
+	height:auto;
+}
+
+.dewrap {
+	float:left;
+	width:350px;
+	height:auto;
+}
+
+.frap {
+	float:right;
+	width:150px;
+	height:auto;
+}
+
+.gwrap {
+	float:right;
+	width:250px;
+	height:auto;
+}
+.clearer {
+	clear:both;
+	
+}

@@ -1,0 +1,23 @@
+git status - parada ta foldera izmainas
+
+git add 
+
+git checkout head ~2   Atgriezas atpakal uz noteiktu komitu
+
+.  ( Cels kur tu tagad esi )
+
+git commit -m "KOMITA TEKSTS"
+
+git push - nosuta failus uz serveri 
+
+mkdir (maes nosaukums)  - ka izveidot jaunu mapi.
+
+pwd - apskatit kur es atrodos - kada folderi
+
+cd (mapes nosaukums uz kuru es gribi doties)
+
+git init - 
+
+touch index.html ( iveido failu kadu velaties ) 
+
+npm run dev - Piestarte

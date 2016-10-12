@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<html lang="lv" dir="ltr">
+<meta charset="UTF-8">
+</head>
+<body class="body">
+	
+<nav class="wrapper">
+	<div class="nav_layout" onmouseover="slideup(this)" onmouseout="slidedown(this)" >
+		<div class="home">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/home.png"></img>
+		</div>
+		<div class="photo">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/photo.png"></img>
+		</div>
+		<div class="music">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/music.png"></img>
+		</div>
+		<div class="chat">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/chat.png"></img>
+		</div>
+		<div class="games">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/games.png"></img>
+		</div>
+		<div class="blog">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/support.png"></img>
+		</div>
+		<div class="bank">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/bank.png"></img>
+		</div>
+		<div class="twitter">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/twitter.png"></img>
+		</div>
+		<div class="nav_layoutbotton">
+			<ul>	
+			<li><a href="#">Sākums</a></li>
+			<li><a href="#">Galerija</a>
+			<ul>
+				<li><a href="#">Mašīnas</a>
+					<ul>
+						<li><a href="#">Sporta</a></li>
+						<li><a href="#">Retro</a></li>
+						<li><a href="#">Classic</a></li>
+					</ul>
+				</li>	
+					<li><a href="#">Daba</a></li>
+					<li><a href="#">Dzivnieki</a></li>
+					<li><a href="#">Sievietes</a></li>
+			</ul>
+			</li>
+		</ul>
+		</div>
+	</div>
+</nav>
+
+<script>
+
+	function bigImg(x) {
+		x.style.height = "96px";
+		x.style.width = "96px";
+	}
+	
+	function normalImg(x) {
+		x.style.height = "72px";
+		x.style.width = "72px";
+	}
+	
+	function slideup (x){
+		x.style.height = "100px"
+		x.style.width = "800px"
+	}
+	
+	function slidedown (x){
+		x.style.height = "85px"
+		x.style.width = "800px"
+	}
+	
+</script>
+
+</body>
+</html>
+
+			
